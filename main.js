@@ -44,3 +44,16 @@ function(){
     document.getElementById("three").appendChild(boxThreeMessage);
 }, false
 );
+
+//PART V
+var link = document.getElementsByClassName('link');
+
+function toggleStartOver() {
+    for (i = 0; i < link.length; i++) {
+        link[i].classList.add('show');
+    }
+}
+
+for (i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener('click', toggleStartOver);
+}

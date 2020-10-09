@@ -13,7 +13,7 @@ html{
 }
 
 .header{
-    background: rgb(130, 87, 229);
+    background: rgb(202 147 239);
     font-family: sweet-titling-no-11, sans-serif;
     font-size: 2.5rem;
     color: white;
@@ -22,9 +22,7 @@ html{
 }
 
 .h2{
-    font-family: sweet-titling-no-26, sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
+    font: normal 500 3rem mongoose, sans-serif, sans-serif;
     text-align: center;
     padding: 3rem 0;
 }
@@ -39,18 +37,32 @@ html{
 .box{
     width: 22rem;
     height: 22rem;
-    border: rgb(130, 87, 229) solid 1.2rem;
+    border: rgb(202 147 239) solid 1.2rem;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: sweet-titling-no-26, sans-serif;
-    font-size: 6rem;
-    font-weight: 500;
+}
+
+.box span{
+    font: normal 500 6rem mongoose, sans-serif, sans-serif;
+}
+
+#one{
+    background:#ffdef2;
+}
+
+#two{
+    background:#ffeec5;
+}
+
+#three{
+    background: #d7ffc0;
 }
 
 .color {
-    background: #c6eae7;
+    background: #c6eae7 !important;
 }
 
 .link {
@@ -59,4 +71,10 @@ html{
 
 .show {
     display: flex;
+}
+
+.box p{
+    font: normal 400 3rem mongoose, sans-serif, sans-serif;
+    text-align: center;
+    padding: 0 2rem;
 }
