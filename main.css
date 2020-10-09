@@ -7,6 +7,21 @@ html{
     font-size: 62.5%;
 }
 
+a:link, 
+a:active,
+a:visited{
+    color: rgb(202 147 239);
+    font: normal 500 3rem mongoose, sans-serif, sans-serif;
+    text-decoration: none;
+    background: #c6eae7 ;
+    padding: .5rem  0;
+    border: rgb(202 147 239) 1rem solid;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    max-width: 15rem;
+    text-align: center;
+    margin: 4rem auto;
+}
 .container{
     max-width: 100rem;
     margin: 0 auto;
@@ -70,7 +85,7 @@ html{
 }
 
 .show {
-    display: flex;
+    display: block;
 }
 
 .box p{
