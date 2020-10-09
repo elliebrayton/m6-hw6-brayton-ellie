@@ -52,3 +52,11 @@ html{
 .color {
     background: #c6eae7;
 }
+
+.link {
+    display: none;
+}
+
+.show {
+    display: flex;
+}

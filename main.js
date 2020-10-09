@@ -19,3 +19,12 @@ for (i = 0; i < boxes.length; i++) {
     boxes[i].addEventListener("mouseout", highlight);
 }
 
+//PART II
+
+var boxOneMessage = document.createElement("p")
+boxOneMessage.innerHTML = "Oooh - so close, but no cigar"
+document.getElementById("one").addEventListener("click",
+function(){
+    document.getElementById("one").appendChild(boxOneMessage);
+}, false
+);
