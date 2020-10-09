@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(130, 87, 229);
+    font-family: sweet-titling-no-11, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
+.h2{
+    font-family: sweet-titling-no-26, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    width: 22rem;
+    height: 22rem;
+    border: rgb(130, 87, 229) solid 1.2rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sweet-titling-no-26, sans-serif;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.color {
+    background: #c6eae7;
+}
